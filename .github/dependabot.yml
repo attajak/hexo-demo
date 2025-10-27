@@ -1,13 +1,13 @@
-version: 2
+intervall
 updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: daily
+      interval: weekly # daily
     open-pull-requests-limit: 20
 
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: daily
+      interval: monthly # daily
     open-pull-requests-limit: 20
