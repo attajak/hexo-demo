@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 'Hexo Demo'
 subtitle: ''
 description: ''
-keywords:
-author: Attajak Janrak
-language: th
+keywords: ['Attajak', 'Janrak', 'Hexo']
+author: 'attajak'
+language: 'th'
 timezone: 'Asia/Bangkok'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://attajak.github.io/hexo-demo
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,4 +101,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/attajak/hexo-demo
+  branch: gh-pages
+  message: Deploy to Github pages
